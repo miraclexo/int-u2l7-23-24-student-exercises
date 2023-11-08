@@ -13,13 +13,15 @@
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
 body {
-    background-color: #d93f3f;
+    background-color: black;
     color: #eb2626;
 }
 
 
 .food-pic {
-    width: 200px;
+    width: 100px;
+  
+  
 }
 
 .title {
@@ -30,3 +32,9 @@ body {
     font-family: 'Italianno', cursive;
     font-size: 90px;
 }
+
+.pizzapics{display: flex;
+          justify-content: space-around;
+          border-style:dotted;
+          border-color:#B36161;
+          border-width:8px;}
